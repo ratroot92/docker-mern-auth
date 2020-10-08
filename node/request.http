@@ -1,0 +1,16 @@
+
+# POST http://localhost:5000/user/login HTTP/1.1
+# content-type: application/json
+
+# {
+#     "username": "asd",
+#     "password": "asd"
+# }
+
+POST http://localhost:5000/user/todo HTTP/1.1
+content-type: application/json
+
+{
+    "name": "asd"
+
+}
