@@ -1,6 +1,10 @@
 const {transports, createLogger, format} = require('winston');
 require('winston-daily-rotate-file');
 
+
+
+
+
 var infoTransport = new transports.DailyRotateFile({
   filename: 'info_log-%DATE%.log',
   dirname:'./logs/info/',
@@ -34,5 +38,7 @@ var logger = createLogger({
     infoTransport,errorTransport
   ]
 });
+
+
 
 module.exports=logger

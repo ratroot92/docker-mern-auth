@@ -8,6 +8,7 @@ require("dotenv").config({
 //** Winston Confs  **/
 const logger =require('./config/logger')
 const connectDB=require('./config/mongoDB')
+const loggerHelpers=require('./helpers/loggerhelper')
 
 
 
@@ -29,7 +30,10 @@ const connectDB=require('./config/mongoDB')
     "origin":req['headers']['origin'],
     "method":req['method'],
   }
-  logger.error(log)
+  logger.info(log)
+  //
+  loggerHelpers.findSingleFile("error","2020-10-10")
+
   next()
 }
 
