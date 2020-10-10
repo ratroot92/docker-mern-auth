@@ -31,8 +31,18 @@ const loggerHelpers=require('./helpers/loggerhelper')
     "method":req['method'],
   }
   logger.info(log)
-  //
-  loggerHelpers.findSingleFile("error","2020-10-10")
+  
+  loggerHelpers.extractSingleFile("error","2020-10-10",(res)=>{
+    console.log(res)
+  //    let filePath=res[0]["filePath"]
+  //    let messages=[]
+  //    for(let i=0;i<res[0]["content"].length;i++)
+  //   {
+  //    messages.push(res[0]["content"][i])
+  //   }
+  //   console.log(messages)
+
+})
 
   next()
 }
@@ -51,6 +61,7 @@ server.use(loggerMiddleWare);
 */
 const userRouter = require("./routes/user.route");
 const validateRouter = require("./routes/validate.route");
+const { response } = require("express");
 server.use("/api/user", userRouter);
 server.use("/api/validate", validateRouter);
 

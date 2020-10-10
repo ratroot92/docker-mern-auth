@@ -35,7 +35,7 @@ var logger = createLogger({
 
 ),
   transports: [
-    infoTransport,errorTransport
+errorTransport
   ]
 });
 
