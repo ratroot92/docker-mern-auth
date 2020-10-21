@@ -1,0 +1,54 @@
+
+  .fc-button-primary{
+    background-color:green;
+    border-color: green;
+  }
+  .fc-button-primary:hover{
+  background-color:white;
+    border-color: green;
+	color:green;
+  }
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active{
+     color: green; 
+     background-color:white;
+     border-color: #151e27; 
+	 padding:8px;
+}
+.fc-event, .fc-event-dot{
+ background-color:green;
+ border:1px solid green;
+}
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td{
+	border-color:green;
+}
+.fc th {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.fc-button-primary:disabled{
+	background-color:green;
+    border-color: green;
+	color:white;
+}
+.fc-unthemed td.fc-today{
+background-color:green;
+color:white;
+}
+  /* body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+  } */
+  #loading {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #calendar {
+    max-width: 100%;
+    margin: 0 auto;
+  }

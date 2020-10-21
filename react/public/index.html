@@ -2,59 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta  name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!-- <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    /> -->
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+   <link rel="shortcut icon" type="image" sizes="32x32" href="assets/document/Favicon CPD.png">
+    <title>CPD</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+   <!-- <link href='../Calenderpackages/core/main.css' rel='stylesheet' />
+   <link href='../Calenderpackages/list/main.css' rel='stylesheet' /> -->
+   <link href="../src/assets/css/main.css" rel="stylesheet" /> 
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
-    <!-- <link rel="stylesheet" href="./css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="./css/all.min.css"/> -->
-    <!-- <link rel="stylesheet" href="./css/tailwind.min.css"/> -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-   <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-      rel="stylesheet"
-    /> 
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-   
-  </head>
+ </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root" class="container"></div>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -66,4 +27,46 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
-</html>
+  <!-- <script src='../Calenderpackages/core/main.js'></script>
+  <script src='../Calenderpackages/daygrid/main.js'></script>
+  <script src='../Calenderpackages/list/main.js'></script>
+  <script src='../Calenderpackages/google-calendar/main.js'></script>
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+      plugins: [ 'interaction', 'dayGrid', 'list', 'googleCalendar' ],
+        header: {
+          left: 'prevYear,prev,next,nextYear today myCustomButton',
+          center: 'title',
+          right: 'dayGridMonth,dayGridWeek,listYear'
+        },
+        displayEventTime: true, // don't show the time column in list view
+        // THIS KEY WON'T WORK IN PRODUCTION!!!
+        // To make your own Google API key, follow the directions here:
+        // http://fullcalendar.io/docs/google_calendar/
+       googleCalendarApiKey: 'AIzaSyBBz82ez2JZrvj_4OxBNhUmFcEzEDN6H1k',
+       events:{
+              googleCalendarId: 'j4mikl5ji12uhrb1be131gso0o@group.calendar.google.com',
+              className:'gcal-event',
+          },
+        // US Holidays
+       // events: 'en.usa#holiday@group.v.calendar.google.com',
+        eventClick: function(arg) {
+          // opens events in a popup window
+          window.open(arg.event.url, 'google-calendar-event', 'width=700,height=600');
+          arg.jsEvent.preventDefault() // don't navigate in main tab
+        },
+        loading: function(bool) {
+          document.getElementById('loading').style.display =
+            bool ? 'block' : 'none';
+        }
+      });
+    calendar.render();
+    });
+  </script> -->
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+  </html>

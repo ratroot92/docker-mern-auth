@@ -1,0 +1,138 @@
+.back_image{
+    background-image: url('../../image/exam.png');
+    width: 100%;
+    height: 70%;
+}
+.i_clock_Des{
+    margin-top: 2px;
+    margin-right: 18px;
+    font-size: 20px;
+}
+.inner_text_Header{
+    padding-right: 7%;
+}
+ .image_hight_area{
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(../../image/cpd/cpd_webinarDes.jpg);
+ }
+ .mtb_10{
+     margin: 10vh 0px;
+ }
+ .icon_text{
+    padding: 5vh 0px 5vh 14vh;
+    background-color: #F9F9F9;
+ }
+ .lineheight_2{
+     line-height: 2;
+ }
+ .ml_3p{
+     margin-left: 3%;
+ }
+ .Des_text{
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: justify;
+ }
+ .img_hei{
+    width: 100%;
+    height: 17vh;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .fz_18p{
+     font-size: 18px;
+ }
+ /* #contentofsite { 
+    height: 2vh; 
+    overflow: hidden; 
+}
+#showmemore:hover + #contentofsite { 
+    height: auto;
+    overflow: visible;
+} */
+#more {display: none;}
+.mt_unset{
+    margin-top: unset;
+}
+.span_fz{
+    font-size: 1rem;
+}
+.btnshowmore_less{
+    background: white;
+    color: #1FA84C;
+    font-size: 19px;
+    font-weight: 700;
+    width: 130px;
+    border: 0px solid;
+    outline: none;
+    box-shadow: none;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .img_hei {
+        width: 48%;
+        height: 19vh;
+    }
+    .span_fz{
+        font-size: 0.75rem;
+    }
+    .icon_text {
+        padding: 5vh 0px 5vh 8vh;
+    }
+    .text_center_mob{
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) {
+   
+}
+/* @media screen and (min-width:768px), (max-width:850px ) {  this is true  */
+@media only screen and (width:768px) {
+    .icon_text {
+        padding: 5vh 0px 5vh 2vh;
+    }
+    .inner_text_Header {
+        padding-left: 8%;
+        padding-right:unset;
+    }
+    .img_hei {
+       height: 9vh;
+    }
+    .span_fz{
+        font-size: 0.75rem;
+    }
+    
+   
+}
+@media only screen and (min-width: 868px) {
+   
+}
+@media only screen and (min-width: 992px) {
+   
+}
+@media only screen and (min-width: 1024px) {
+   
+}
+@media only screen and (min-width: 1200px) {
+   
+}

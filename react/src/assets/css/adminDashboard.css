@@ -1,0 +1,158 @@
+.admin-sidebar {
+  width: 250px;
+  background-color: purple;
+}
+.admin-card {
+  border-radius: 5px;
+  padding: 20px;
+  height: 85vh;
+  overflow: auto;
+  margin-top: 20px;
+}
+.admin-card-pricing {
+  max-height: 85vh;
+  border-radius: 5px;
+  padding: 20px;
+  overflow: auto;
+  margin-top: 20px;
+}
+.admin-form-control {
+  font-size: 0.8rem;
+}
+.admin-btn-green {
+  background-color: #20A84C;
+}
+.admin-btn {
+  font-size: 0.8rem;
+}
+.admin-course-section {
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  padding: 10px;
+}
+.admin-paper-div {
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  padding: 10px;
+}
+.btn-transparent {
+  background-color: #fff;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+}
+.admin-navbar {
+  height: 10vh;
+  max-height: 100px;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: 0 !important;
+}
+.customTabs {
+  color: #000;
+  font-weight: 600;
+  flex-direction: none;
+}
+.admin-input-field {
+  height: 40px !important;
+}
+.admin-card-pool {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.hr-2 {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.validity {
+  padding: 6px;
+  font-size: 13px;
+}
+.question_list {
+  border: 1px solid #a8a8a8;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 20px;
+}
+.display_questions ul {
+  /* width: 500px;
+  padding: 0px; */
+  width: 90%;
+}
+.mockExamSectionName {
+  margin-top: -20px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.card-width-100 {
+  width: 1000px;
+}
+.admin-course-priceDiv {
+  position: absolute;
+  width: 100%;
+  /* width: 55%; */
+  bottom: 0px;
+}
+.bl-grey {
+  border-left: 1.5px solid #d5cece;
+}
+.bb-grey {
+  border-bottom: 1.5px solid #d5cece;
+}
+.uploadStripe {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 13px;
+  padding-left: 5px;
+  position: absolute;
+  width: 90%;
+  bottom: 2px;
+}
+.uploadCard {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 13px;
+  padding-left: 5px;
+  margin: 5px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* position: absolute; */
+  width: 400;
+}
+.btn-shadow {
+  box-shadow: 0px 0px 5px 2px #fd525242;
+}
+.noTextDecor {
+  text-decoration: none !important;
+}
+.ptb-8 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.clr-toggle {
+  background-color: #fc5252;
+}
+.no_border {
+  border: none;
+}
+.admin_faq {
+  border: 1px solid #a8a8a870;
+  border-radius: 3px;
+}
+.br-7 {
+  border-radius: 7px;
+}
+.icon-adjustment {
+  padding-left: 5px;
+  margin-top: 2px;
+}

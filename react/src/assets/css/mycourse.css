@@ -1,0 +1,100 @@
+.mycourse_slider {
+  background-image: linear-gradient(#3760c1, #7666e4, #a66bfe);
+  height: 500px;
+}
+.RRT__inkbar {
+  background-color: #fc5252 !important;
+}
+.mycourse .RRT__panel {
+  border: none;
+  padding: 10px;
+}
+.mycourse .RRT__tab--selected {
+  background: none;
+  border: none;
+}
+.mycourse .RRT__tab--selected:focus {
+  background: none;
+}
+.RRT__inkbar {
+  height: 4px !important;
+}
+.mycourse .RRT__tab {
+  background: none;
+  border: none;
+  color: black;
+}
+.mycourse .RRT__tab:focus {
+  background: none;
+}
+
+.mycourse .RRT__tabs {
+  background: none;
+}
+.stripe {
+  background: #ffffff;
+  height: 50px;
+}
+.tab-container-course {
+  margin-top: -43px;
+  padding-bottom: 50px;
+}
+.media_box_adjust {
+  margin-top: 160px;
+}
+
+.title_box_adjust {
+  margin-top: 160px;
+  padding: 50px;
+}
+.course_start-btn {
+  padding: 12px;
+}
+
+.mb-5neg {
+  margin-bottom: -5px;
+}
+.progress-bar {
+  stroke: white;
+}
+.modal-course-name {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.bg-grad-purple {
+  background-image: linear-gradient(#3760c1, #7666e4, #a66bfe);
+}
+.custom-modalcourse-width {
+  min-width: 55vw;
+}
+.course-instruction {
+  border-radius: 12px;
+  padding: 20px;
+  border: 2px solid #fafafa;
+  /* width: 85%; */
+}
+.previous-attempts-div {
+  border: 1.5px solid #343a4061;
+  padding: 12px;
+  /* box-shadow: 1px 1px 1px #343a4061; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+/* .bg-grey
+{
+  background-color: #fafafa;
+} */
+
+.mode-card {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 7px;
+}
+.mode-card-parent :hover {
+  box-shadow: 0px 0px 5px 1px #00000042;
+}

@@ -1,0 +1,11 @@
+.admin-course-file-table {
+    border-collapse: collapse;
+    text-align: center !important;
+}
+.admin-course-file-table td , .admin-course-file-table th {
+    padding: 0.75rem;
+}
+.admin-course-file-table th {
+    border-bottom: 2px solid #dee2e6;
+    border-top: 1px solid #dee2e6
+}

@@ -1,0 +1,46 @@
+.about_slider
+{
+	background-image:linear-gradient(#3760C1,#7666E4,#a66bfe);
+	height:250px;
+}
+.bg-grey
+{
+	background-color: #fafafa;
+}
+.what_are_we
+{
+	padding-top: 5%;
+}
+.why_us
+{
+	padding-top: 5%;
+}
+.white
+{
+	color:#fff;
+}
+.bg-purple-gradient
+{
+	background-image:linear-gradient(#3760C1,#7666E4,#a66bfe);
+}
+.our-instructor
+{
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+.contact-us-heading
+{
+	padding-top:2%;
+	padding-bottom: 2%;
+}
+.default-spacing
+{
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+.about-slider-heading
+{
+	padding-top: 180px;
+    padding-left: 36px;
+    color: #fff;
+}
